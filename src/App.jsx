@@ -9,8 +9,8 @@ function App() {
       <header className="hero">
         <div className="hero-content">
           <div className="hero-text">
-            <h1 style={{color: '#2c3e50', fontSize: '3rem', fontWeight: 'bold', marginBottom: '0.5rem', textAlign: 'center'}}>Wambui Karanja</h1>
-            <h2 style={{color: '#34495e', fontSize: '1.8rem', fontWeight: '300', textAlign: 'center'}}>Full-Stack Developer</h2>
+            <h1 style={{color: '#f9fafb', fontSize: '3rem', fontWeight: 'bold', marginBottom: '0.5rem', textAlign: 'center'}}>Wambui Karanja</h1>
+            <h2 style={{color: '#e5e7eb', fontSize: '1.8rem', fontWeight: '300', textAlign: 'center'}}>Full-Stack Developer</h2>
             <p>
               I build fast, user-friendly web apps using JavaScript, React, Node.js, and APIs. I am passionate about creating efficient solutions and delivering exceptional user experiences.
 
@@ -148,6 +148,7 @@ When I'm not coding, I am exploring new tools.
             <div className="skill-list">
               <span className="skill-item">Node.js</span>
               <span className="skill-item">Python</span>
+              <span className="skill-item">Django</span>
               <span className="skill-item">JSON Server</span>
               <span className="skill-item">Databases (SQLite / PostgreSQL / MySQL)</span>
             </div>
