@@ -12,14 +12,8 @@ function App() {
             <h1 style={{color: '#f9fafb', fontSize: '3rem', fontWeight: 'bold', marginBottom: '0.5rem', textAlign: 'center'}}>Wambui Karanja</h1>
             <h2 style={{color: '#e5e7eb', fontSize: '1.8rem', fontWeight: '300', textAlign: 'center'}}>Full-Stack Developer</h2>
             <p>
-              I build fast, user-friendly web apps using JavaScript, React, Node.js, and APIs. I am passionate about creating efficient solutions and delivering exceptional user experiences.
-
-I am a dedicated developer who enjoys turning ideas into functional, polished applications. Over time, I have worked on real-world projects ranging from freelance marketplaces to guestbooks. Each project has strengthened my skills in frontend design, backend logic, and API integration.
-
-I love learning new technologies and improving my craft every day. Problem-solving, clean code, and intuitive UI/UX design are at the center of my work. Currently, I am sharpening my skills in full-stack development and building projects that showcase my ability to create complete end-to-end solutions.
-
-When I'm not coding, I am exploring new tools.
-            </p>
+             Innovative Full-Stack Developer with hands-on experience architecting and implementing scalable, production-grade web applications using React, Flask, and PostgreSQL. Strong expertise in RESTful API design, OAuth/JWT-based authentication, relational database modeling and optimization, and cloud-native deployment pipelines. Proficient in building modular, maintainable system
+             </p>
           </div>
           <div className="hero-photo">
             <img src="/wambui.jpg" alt="Wambui Karanja" />
@@ -70,7 +64,7 @@ When I'm not coding, I am exploring new tools.
       <section id="resume" className="section" style={{display: activeSection === 'resume' ? 'block' : 'none'}}>
         <h2>Resume</h2>
         <div className="resume-download">
-          <a href="/wambui-karanja-cv.pdf" download className="download-btn">Download CV (PDF)</a>
+          <a href="/WAMBUI KARANJA CV.pdf" download className="download-btn">Download CV (PDF)</a>
         </div>
 
         <div className="resume-content">
@@ -100,11 +94,11 @@ When I'm not coding, I am exploring new tools.
               <h4>Junior Software Developer</h4>
               <p className="company">Moringa School | Nairobi, Kenya | 2025 - </p>
               <ul>
-                <li>Developed full-stack web applications using React, Node.js, and PostgreSQL</li>
-                <li>Implemented responsive UI components with modern CSS frameworks (Tailwind, Bootstrap)</li>
-                <li>Built RESTful APIs with Express.js and integrated third-party services</li>
+                <li>Designed and implemented 5+ full-stack web applications using React and Flask </li>
+                <li>Developed RESTful APIs with secure JWT authentication and optimized SQLAlchemy queries </li>
+                <li>Led Agile ceremonies as Scrum Master for a team of 6 developers </li>
                 <li>Utilized Git for version control and collaborated on team projects using GitHub</li>
-                <li>Participated in code reviews and implemented best practices for clean, maintainable code</li>
+                <li>Deployed applications to Render and Vercel with CI/CD pipelines - Debugged and resolved 50+ cross-stack issues</li>
               </ul>
             </div>
           </div>
@@ -112,7 +106,7 @@ When I'm not coding, I am exploring new tools.
           <div className="resume-section">
             <h3>Education</h3>
             <div className="education-item">
-              <h4>Full stack developer</h4>
+              <h4>Software engineering</h4>
               <p className="institution"> Moringa | 2025 - present</p>
               <p>Graduated with First Class Honours. Specialized in Software Engineering and Web Technologies.</p>
             </div>
@@ -121,8 +115,8 @@ When I'm not coding, I am exploring new tools.
           <div className="resume-section">
             <h3>Certifications</h3>
             <ul className="certifications-list">
+              <li>AI Automation(2026)-Moringa(2026)</li>
               <li>Full Stack Developer Certification - Moringa School (2025)</li>
-              <li>React Developer Certification - Meta (2025)</li>
               <li>JavaScript Algorithms and Data Structures - freeCodeCamp (2025)</li>
               <li>Responsive Web Design - freeCodeCamp (2025)</li>
             </ul>
@@ -134,32 +128,40 @@ When I'm not coding, I am exploring new tools.
         <h2>Skills</h2>
         <div className="skills-grid">
           <div className="skill-category">
-            <h3>Frontend</h3>
+            <h3>Programming and development</h3>
             <div className="skill-list">
               <span className="skill-item">HTML5</span>
               <span className="skill-item">CSS3 (Flexbox, Grid)</span>
               <span className="skill-item">JavaScript (ES6+)</span>
               <span className="skill-item">React</span>
               <span className="skill-item">Tailwind / Bootstrap</span>
+              <span className="skill-item">Flask</span>
+              <span className="skill-item">Python</span>
+              <span className="skill-item">AI Automation</span>
+              <span className="skill-item">SQLITE</span>
+              <span className="skill-item">Version control(Git&Github)</span>
             </div>
           </div>
           <div className="skill-category">
-            <h3>Backend</h3>
+            <h3>Software and Web Development</h3>
             <div className="skill-list">
-              <span className="skill-item">Node.js</span>
-              <span className="skill-item">Python</span>
-              <span className="skill-item">Django</span>
-              <span className="skill-item">JSON Server</span>
-              <span className="skill-item">Databases (SQLite / PostgreSQL / MySQL)</span>
+              <span className="skill-item">Front-End Development</span>
+              <span className="skill-item">Back-End Intergration</span>
+              <span className="skill-item">Web Perfomance Optimization</span>
+              <span className="skill-item">Databases Design</span>
+               <span className="skill-item">SEO and Search Engine Optimization</span>
+              
             </div>
           </div>
           <div className="skill-category">
             <h3>Tools</h3>
             <div className="skill-list">
-              <span className="skill-item">Git & GitHub</span>
+              <span className="skill-item">Figma(UI/UX Code)</span>
               <span className="skill-item">VS Code</span>
               <span className="skill-item">Postman</span>
               <span className="skill-item">Render / Netlify / Vercel</span>
+              <span className="skill-item">WordPress</span>
+              
             </div>
           </div>
           <div className="skill-category">
@@ -169,6 +171,15 @@ When I'm not coding, I am exploring new tools.
               <span className="skill-item">Asynchronous JavaScript (fetch, promises)</span>
             </div>
           </div>
+          <div className="skill-category">
+            <h3>Soft Skills</h3>
+            <div className="skill-list">
+              <span className="skill-item">Team Collaboration</span>
+              <span className="skill-item">Time Management</span>
+              <span className="skill-item">Problem Solving</span>
+              <span className="skill-item">Communication</span>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -176,11 +187,30 @@ When I'm not coding, I am exploring new tools.
         <h2>Projects</h2>
         <div className="projects-grid">
           <div className="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>Built responsive personal portfolio using React to showcase projects, Skills and experience.</p>
+            <div className="tech-stack">
+              <span className="badge">React</span>
+              <span className="badge">CSS3</span>
+              <span className="badge">Vite</span>
+            </div>
+            <ul className="features">
+              <li>Implemented reusable components</li>
+              <li>Responsive design for all devices</li>
+              <li>Interactive navigation with React state</li>
+              <li>Clean and modern UI with smooth transitions</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://github.com/Wambo71/my-portfolio" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            </div>
+            <p><strong>Role:</strong> Full-stack developer - Built and designed the entire portfolio from scratch.</p>
+          </div>
+
+          <div className="project-card">
             <h3>SkillBridge Freelance Marketplace</h3>
             <p>A platform connecting freelancers with clients for various services.</p>
             <div className="tech-stack">
               <span className="badge">React</span>
-              <span className="badge">Node.js</span>
               <span className="badge">PostgreSQL</span>
               <span className="badge">Flask</span>
             </div>
@@ -202,7 +232,6 @@ When I'm not coding, I am exploring new tools.
             <p>An e-commerce platform for buying and selling digital products.</p>
             <div className="tech-stack">
               <span className="badge">React</span>
-              <span className="badge">Node.js</span>
               <span className="badge">Python</span>
               <span className="badge">PostgreSQL</span>
             </div>
