@@ -268,6 +268,47 @@ function App() {
             </div>
             <p><strong>Role:</strong> Full-stack developer - Built the complete shopping platform.</p>
           </div>
+
+          <div className="project-card">
+            <h3>School Connect - Institution Management System</h3>
+            <p>A full-stack school management system handling students, staff, courses, and departments with role-based access control.</p>
+            <div className="tech-stack">
+              <span className="badge">React</span>
+              <span className="badge">Flask</span>
+              <span className="badge">SQLite</span>
+              <span className="badge">JWT Auth</span>
+            </div>
+            <ul className="features">
+              <li>Role-based authentication (Admin, Staff, Student)</li>
+              <li>Student enrollment and course management</li>
+              <li>Department and staff administration</li>
+              <li>Secure login with JWT tokens</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://school-connect-4.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://github.com/Wambo71/School-connect" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            </div>
+            <p><strong>Role:</strong> Full-stack developer - Designed and built the entire system including auth, backend APIs, and frontend.</p>
+          </div>
+
+          <div className="project-card">
+            <h3>ScamShield - Fake URL Detector</h3>
+            <p>A security tool for detecting and flagging potentially malicious or fake URLs to protect users from online scams.</p>
+            <div className="tech-stack">
+              <span className="badge">React</span>
+              <span className="badge">Flask</span>
+              <span className="badge">Python</span>
+            </div>
+            <ul className="features">
+              <li>URL analysis and scam detection</li>
+              <li>Malicious link flagging</li>
+              <li>User-friendly scan interface</li>
+            </ul>
+            <div className="project-links">
+              <a href="https://github.com/Wambo71/Scam-shield" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+            </div>
+            <p><strong>Role:</strong> Full-stack developer - Building the detection engine and frontend interface. <em>(In Progress)</em></p>
+          </div>
         </div>
       </section>
 
