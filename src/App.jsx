@@ -322,7 +322,7 @@ function App() {
           </div>
           <div className="contact-item">
             <h3>LinkedIn</h3>
-            <a href="https://linkedin.com/in/wambuikaranja" target="_blank" rel="noopener noreferrer">linkedin.com/in/wambuikaranja</a>
+            <a href="https://linkedin.com/in/Ruthkaranja" target="_blank" rel="noopener noreferrer">linkedin.com/in/ruthkaranja</a>
           </div>
           <div className="contact-item">
             <h3>GitHub</h3>
