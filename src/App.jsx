@@ -12,8 +12,8 @@ function App() {
             <h1 style={{color: '#f9fafb', fontSize: '3rem', fontWeight: 'bold', marginBottom: '0.5rem', textAlign: 'center'}}>Wambui Karanja</h1>
             <h2 style={{color: '#e5e7eb', fontSize: '1.8rem', fontWeight: '300', textAlign: 'center'}}>Full-Stack Developer</h2>
             <p>
-             Innovative Full-Stack Developer with hands-on experience architecting and implementing scalable, production-grade web applications using React, Flask, and PostgreSQL. Strong expertise in RESTful API design, OAuth/JWT-based authentication, relational database modeling and optimization, and cloud-native deployment pipelines. Proficient in building modular, maintainable system
-             </p>
+              Software Engineer specializing in full-stack applications, data quality assurance, and AI model evaluation. Experienced in structuring relational databases, validating complex inputs, and debugging programmatic logic across React, Flask, and PostgreSQL systems.
+            </p>
           </div>
           <div className="hero-photo">
             <img src="/wambui.jpg" alt="Wambui Karanja" />
@@ -33,26 +33,20 @@ function App() {
       <section id="about" className="section" style={{display: activeSection === 'about' ? 'block' : 'none'}}>
         <h2>About Me</h2>
         <p>
-          Hi, I'm Wambui Karanja, a dedicated Full-Stack Developer based in Nairobi, Kenya.
-          I'm passionate about creating digital solutions that make a difference in people's lives.
-          As a full-stack developer, I specialize in building end-to-end web applications that are both
-          functional and user-friendly.
+          Hi, I'm Wambui Karanja, a Full-Stack Developer and AI-focused engineer based in Nairobi, Kenya.
+          I specialize in building end-to-end web applications and applying data quality assurance principles
+          to ensure clean, structured, and reliable outputs — whether in software systems or AI model evaluation.
         </p>
         <p>
-          What motivates me is the opportunity to solve complex problems through code and witness the
-          immediate impact of my work. I thrive on challenges that push me to learn and grow, and I
-          take pride in writing clean, efficient, and maintainable code.
+          I have hands-on experience designing relational database schemas (PostgreSQL, SQLite), validating
+          complex user inputs across REST API endpoints, and debugging programmatic logic — skills that
+          translate directly into AI training workflows such as reviewing model responses, flagging errors,
+          and categorizing data for quality control.
         </p>
         <p>
-          I particularly enjoy working on projects that involve creating intuitive user experiences,
-          integrating various technologies, and building scalable applications. Whether it's developing
-          a marketplace platform, an interactive web app, or an e-commerce solution, I love the process
-          of turning ideas into reality.
-        </p>
-        <p>
-          Currently, I'm deepening my knowledge in cloud technologies and exploring advanced React patterns
-          to build more sophisticated user interfaces. I'm also interested in learning about AI/ML integration
-          in web applications and how to leverage these technologies for better user experiences.
+          I enjoy working at the intersection of software engineering and AI — building tools that handle
+          structured data, integrating APIs that exchange JSON payloads, and writing Python scripts that
+          automate data processing pipelines.
         </p>
         <p>
           Outside of coding, I'm an avid reader and enjoy hiking in Kenya's beautiful landscapes.
@@ -213,12 +207,13 @@ function App() {
               <span className="badge">React</span>
               <span className="badge">PostgreSQL</span>
               <span className="badge">Flask</span>
+              <span className="badge data-badge">Data Validation</span>
             </div>
             <ul className="features">
-              <li>User authentication and profiles</li>
-              <li>Job posting and bidding system</li>
-              <li>Real-time messaging</li>
-              <li>Payment integration</li>
+              <li>Designed normalized PostgreSQL schema for users, jobs, bids, and messages</li>
+              <li>Built REST API endpoints with server-side input validation for job postings and bids</li>
+              <li>Integrated third-party payment API handling structured JSON request/response payloads</li>
+              <li>Real-time messaging with validated message data before persistence</li>
             </ul>
             <div className="project-links">
               <a href="https://skillbridge-project-1.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
@@ -234,12 +229,14 @@ function App() {
               <span className="badge">React</span>
               <span className="badge">Python</span>
               <span className="badge">PostgreSQL</span>
+              <span className="badge data-badge">Python Scripting</span>
+              <span className="badge data-badge">Data Validation</span>
             </div>
             <ul className="features">
-              <li>Product listings and categories</li>
-              <li>Secure payment processing</li>
-              <li>User reviews and ratings</li>
-              <li>Admin dashboard</li>
+              <li>Designed PostgreSQL schema with product categories, user roles, and order relationships</li>
+              <li>Wrote Python scripts to validate and sanitize product listing inputs before database writes</li>
+              <li>Consumed and structured REST API JSON payloads for payment processing and order tracking</li>
+              <li>Admin dashboard with data integrity checks on user reviews and ratings</li>
             </ul>
             <div className="project-links">
               <a href="https://frontend-beta-ashy-63.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
@@ -255,12 +252,13 @@ function App() {
               <span className="badge">React</span>
               <span className="badge">Node.js</span>
               <span className="badge">PostgreSQL</span>
+              <span className="badge data-badge">Data Validation</span>
             </div>
             <ul className="features">
-              <li>Product catalog and search</li>
-              <li>Shopping cart and checkout</li>
-              <li>User accounts and order history</li>
-              <li>Inventory management</li>
+              <li>Modeled PostgreSQL schema for products, inventory, orders, and user accounts</li>
+              <li>Validated checkout form inputs and cart data on both client and server side</li>
+              <li>Integrated REST APIs for product catalog with structured JSON data handling</li>
+              <li>Inventory management with data consistency checks on stock updates</li>
             </ul>
             <div className="project-links">
               <a href="https://soft-haven-1.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
@@ -277,12 +275,13 @@ function App() {
               <span className="badge">Flask</span>
               <span className="badge">SQLite</span>
               <span className="badge">JWT Auth</span>
+              <span className="badge data-badge">Data Validation</span>
             </div>
             <ul className="features">
-              <li>Role-based authentication (Admin, Staff, Student)</li>
-              <li>Student enrollment and course management</li>
-              <li>Department and staff administration</li>
-              <li>Secure login with JWT tokens</li>
+              <li>Designed relational SQLite schema linking students, courses, departments, and staff entities</li>
+              <li>Validated all enrollment and registration inputs via Flask API before database writes</li>
+              <li>Structured JSON API responses for role-based data access (Admin, Staff, Student)</li>
+              <li>Debugged cross-role data access logic to ensure data integrity and correct permissions</li>
             </ul>
             <div className="project-links">
               <a href="https://school-connect-4.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
@@ -298,11 +297,13 @@ function App() {
               <span className="badge">React</span>
               <span className="badge">Flask</span>
               <span className="badge">Python</span>
+              <span className="badge data-badge">Python Scripting</span>
+              <span className="badge data-badge">Data Validation</span>
             </div>
             <ul className="features">
-              <li>URL analysis and scam detection</li>
-              <li>Malicious link flagging</li>
-              <li>User-friendly scan interface</li>
+              <li>Python detection engine that parses, categorizes, and scores URL patterns for risk</li>
+              <li>Input validation layer that sanitizes and normalizes submitted URLs before analysis</li>
+              <li>Flask API returns structured JSON verdicts (safe/suspicious/malicious) consumed by React frontend</li>
             </ul>
             <div className="project-links">
               <a href="https://github.com/Wambo71/Scam-shield" target="_blank" rel="noopener noreferrer">GitHub Repo</a>

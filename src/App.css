@@ -139,6 +139,12 @@
   font-weight: bold;
 }
 
+.data-badge {
+  background: #065f46;
+  color: #6ee7b7;
+  border: 1px solid #34d399;
+}
+
 .features {
   list-style: none;
   padding: 0;
