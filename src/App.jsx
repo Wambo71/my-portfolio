@@ -58,7 +58,7 @@ function App() {
       <section id="resume" className="section" style={{display: activeSection === 'resume' ? 'block' : 'none'}}>
         <h2>Resume</h2>
         <div className="resume-download">
-          <a href="/WAMBUI KARANJA_CV.pdf" target="_blank" rel="noopener noreferrer" className="download-btn">View CV (PDF)</a>
+          <a href="/wambui-karanja-resume.pdf" target="_blank" rel="noopener noreferrer" className="download-btn">View CV (PDF)</a>
         </div>
 
         <div className="resume-content">
